@@ -1,0 +1,50 @@
+### 
+POST http://localhost:8082/api/login
+Content-Type: application/json
+
+{
+    "username": "seller",
+    "password": "123"
+}
+
+# {
+#     "username": "test",
+#     "password": "test"
+# }
+
+
+
+### 
+POST http://localhost:8095/api/register
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "email":"123@132.com",
+    "password": "user1",
+    "password2": "user1"
+}
+
+### 
+POST http://localhost:8082/api/addProduct
+Content-Type: application/json
+
+{
+    "title":"cup",
+    "salePrice":0.0
+}
+
+### 
+GET http://localhost:8082/api/products/637a7b1455cb597e96c66930
+Content-Type: application/json
+
+
+### 
+DELETE http://localhost:8082/api/deleteProduct/637a7b1455cb597e96c66930
+Content-Type: application/json
+
+###
+GET http://localhost:8082/api/user
+Content-Type: application/json
+
+

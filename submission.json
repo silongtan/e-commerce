@@ -1,0 +1,10 @@
+{
+  "teamMembers": [
+    { "name": "Fengyi Quan", "netId": "fq18" },
+    { "name": "Mingxuan Zhao", "netId": "mz221" },
+    { "name": "Silong Tan", "netId": "st448" }
+  ],
+  "panoptoVideoUrl": "https://duke.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8660d708-b5e8-49c0-9f30-af61005b23d7",
+  "gitLabRepositoryUrl": "https://coursework.cs.duke.edu/st448/e-commerce",
+  "commentsForGrader": "this part is optional - if you discussed any exceptional circumstances with the instructor, please remind us of these here"
+}

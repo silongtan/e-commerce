@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce-ui",
+  "version": "1.0.0",
+  "description": "Final for web 590 ui",
+  "author": "Fengyi Quan, Silong Tan, Mingxuan Zhao",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "preview": "vite preview --port 4173",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.0.0",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.24.0",
+    "vue": "^2.7.8",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "typescript": "~4.7.4",
+    "vite": "^3.1.0"
+  }
+}
