@@ -33,16 +33,6 @@ const userSchema = new mongoose.Schema(
       required: true,
       default: UserRole.Buyer,
     },
-    // email: {
-    //   type: String,
-    //   required: true,
-    //   trim: true,
-    //   lowercase: true,
-    // },
-    // img: {
-    //   data: Buffer,
-    //   contentType: String,
-    // },orderItems: {
     cart: {
       type: [
         {
@@ -83,13 +73,6 @@ const userSchema = new mongoose.Schema(
         },
       ],
       default: [
-          // {
-          //   productId: new mongoose.Types.ObjectId('000000000000000000000000'),
-          //   sellerId: new mongoose.Types.ObjectId('000000000000000000000000'),
-          //   title: 'a',
-          //   quantity: 1,
-          //   unitPrice: 0.1,
-          // },
       ],
     },
     isActive: {

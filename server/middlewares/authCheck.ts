@@ -8,9 +8,6 @@ const requireAuthentication = (roleList: UserRole[]) => {
       (req.isAuthenticated() &&
         !Object.values(roleList).includes(req.user.roleType))
     ) {
-      // req.flash('error_msg', 'Please log in to view that resource');
-      // console.log(req.user)
-      // console.log(roleList,req.user.roleTyp)
       return res
         .status(401)
         .json({ message: "Please log in to view that resource" });

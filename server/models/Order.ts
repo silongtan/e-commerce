@@ -38,12 +38,6 @@ const orderSchema = new mongoose.Schema(
       required: true,
       default: OrderStatus.Pending, // order init
     },
-    // confirm_status: {
-    //   type: Number,
-    //   enum: ConfirmStatus,
-    //   required: true,
-    //   default: ConfirmStatus.NotConfirmed,
-    // },
     total_amount: {
       type: Number,
       required: true,
