@@ -1,6 +1,6 @@
 # E-Commerce
 
-
+A online web application based on Vue to simulate a online commercial service.
 
 ## Getting started
 
