@@ -1,6 +1,6 @@
 # E-Commerce
 
-A online web application based on Vue to simulate a online commercial service.
+A online web application based on Vue to simulate a online commercial service. Fully containerized using docker.
 
 ## Implementation
 
